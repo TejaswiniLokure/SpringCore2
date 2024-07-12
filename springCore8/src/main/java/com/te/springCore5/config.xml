@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+		https://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context
+		https://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/util
+		https://www.springframework.org/schema/util/spring-util.xsd">
+
+<context:component-scan base-package="com.te.springCore5"/>
+	<util:list list-class="java.util.LinkedList" id="friends">
+		<value>vijju</value>
+		<value>anu</value>
+		<value>raju</value>
+		<value>abhi</value>
+	</util:list>
+
+
+	<!-- <util:map map-class="java.util.HashMap" id="departmentwisesal">
+		<entry key="IT" value="3487564"></entry>
+		<entry key="Sales" value="857356"></entry>
+		<entry key="Marketing" value="854875"></entry>
+		<entry key="HR" value="834756"></entry>
+
+	</util:map> -->
+	
+
+
+</beans>
